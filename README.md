@@ -1,8 +1,8 @@
-# Starter folder
+# Identifying and reduce Data Collection and Cleaning Errors in Analysis
 
 ## Overview
 
-This repo provides students with a foundation for their own projects associated with *Telling Stories with Data*. You do not need every aspect for every paper and you should delete aspects that you do not need.
+This repo contains code and analysis for a simulated study demonstrating the impact of data collection and cleaning errors on statistical inference. 
 
 To use this folder, click the green "Code" button", then "Download ZIP". Move the downloaded folder to where you want to work on your own computer, and then modify it to suit.
 
@@ -11,14 +11,10 @@ To use this folder, click the green "Code" button", then "Download ZIP". Move th
 
 The repo is structured as:
 
--   `data/raw_data` contains the raw data as obtained from X.
--   `data/analysis_data` contains the cleaned dataset that was constructed.
--   `model` contains fitted models. 
--   `other` contains relevant literature, details about LLM chat interactions, and sketches.
+-   `other` contains details about LLM chat interactions.
 -   `paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
--   `scripts` contains the R scripts used to simulate, download and clean data.
 
 
 ## Statement on LLM usage
 
-Aspects of the code were written with the help of the auto-complete tool, Codriver. The abstract and introduction were written with the help of ChatHorse and the entire chat history is available in inputs/llms/usage.txt.
+The simulated data, induced errors were first explained and presented with the help of Chatgpt 4.0. The outline as well as some of the explanations in the report were also done with the help of Gpt's explanation. The chat is available in `other/llm`.
